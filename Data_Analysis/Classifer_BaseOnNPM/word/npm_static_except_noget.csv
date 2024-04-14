@@ -1,0 +1,636 @@
+name_n,static_APIs,label
+config,"Proxy, ",0
+md5,"Buffer, ",0
+postcss-url,"readFile, ",0
+sequelize,"Proxy, ",0
+jsonwebtoken,"from, from, ",0
+rxjs,"send, send, ",0
+http-proxy,"write, write, ",0
+promise,"readdirSync, readFileSync, readdirSync, readFileSync, readdirSync, readFileSync, readdirSync, readFileSync, ",0
+tslint,"readdirSync, readFileSync, readFileSync, readFileSync, readFileSync, readdirSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readSync, readSync, readFileSync, ",0
+vue-template-compiler,"Proxy, Proxy, ",0
+terser,"from, from, readdirSync, readFileSync, ",0
+core-js-pure,"readFileSync, ",0
+clone,"Buffer, ",0
+bl,"from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, ",0
+webpack,"readdir, readdir, readFile, readFileSync, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, Proxy, ",0
+http-server,"readdir, readFileSync, readFileSync, readFileSync, ",0
+gatsby,"Proxy, Proxy, Proxy, Proxy, Proxy, readFileSync, readFileSync, readFileSync, readdir, readFile, readFile, readFileSync, readFileSync, readFile, readFile, readFileSync, readFileSync, readFile, readFileSync, readFile, readFile, from, from, from, from, ",0
+qs,"from, Buffer, ",0
+istanbul,"readFileSync, readFileSync, readdirSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFile, createReadStream, readFileSync, readFileSync, readFileSync, readFileSync, readdirSync, ",0
+mongoose,"readFileSync, readFileSync, readFileSync, from, from, from, from, Proxy, Proxy, ",0
+grunt,"readdirSync, readFileSync, readdirSync, ",0
+eslint,"Proxy, readdirSync, readdirSync, ",0
+jshint,"readFileSync, readdirSync, ",0
+node-sass,"createReadStream, createReadStream, createReadStream, createReadStream, createReadStream, createReadStream, createReadStream, readdirSync, readdirSync, readdirSync, readdirSync, readdirSync, readdirSync, readdirSync, readdirSync, readdirSync, readFileSync, Buffer, Buffer, ",0
+safe-buffer,"Buffer, Buffer, Buffer, Buffer, ",0
+npm,"from, from, from, from, from, from, from, Buffer, Buffer, Buffer, from, from, from, from, from, from, from, from, from, from, from, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, from, Buffer, Buffer, Buffer, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, Buffer, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, Buffer, Buffer, Buffer, Buffer, from, from, from, from, from, from, from, from, readFile, readFile, readFileSync, readdir, readFile, readFileSync, readdir, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readdir, readFile, readFileSync, readFileSync, readdir, readdirSync, readdir, readFileSync, readSync, readSync, read, read, read, readFile, readFile, readFile, readFile, readFile, readFile, readFile, readFile, readFileSync, readSync, readFileSync, readFileSync, copyFile, copyFileSync, copyFile, copyFileSync, copyFile, get, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, Proxy, ",0
+express-session,"from, ",0
+acorn,"readFileSync, ",0
+gulp-eslint,"from, ",0
+cookie-signature,"from, from, ",0
+electron,"readFileSync, ",0
+redux-saga,"Proxy, ",0
+joi,"from, ",0
+gatsby-plugin-offline,"readFileSync, readFileSync, createReadStream, readFileSync, readFileSync, readFileSync, copyFileSync, ",0
+nodemon,"readFile, readFileSync, readFile, ",0
+node-notifier,"readFileSync, ",0
+ember-source,"readFileSync, Proxy, ",0
+dotenv,"readFileSync, ",0
+require-dir,"readdirSync, ",0
+babel-polyfill,"readFileSync, ",0
+less,"readFile, readFile, readFile, readFile, readFile, readdirSync, readFileSync, readFile, readFileSync, readFileSync, readFileSync, readFileSync, from, Buffer, ",0
+cypress,"Proxy, Proxy, Proxy, Proxy, createReadStream, readdir, readFile, ",0
+ts-jest,"from, ",0
+postcss,"from, ",0
+ip,"Buffer, Buffer, Buffer, Buffer, ",0
+pump,"Buffer, ",0
+source-map-loader,"from, from, from, ",0
+prettier,"from, from, ",0
+svgo,"readdirSync, from, from, ",0
+selenium-webdriver,"from, write, createReadStream, readdirSync, readFile, readdir, ",0
+superagent,"createReadStream, from, ",0
+socket.io-client,"connect, ",0
+source-map-support,"readFileSync, readFileSync, ",0
+require-directory,"readdirSync, ",0
+vue-server-renderer,"Proxy, Proxy, runInThisContext, runInNewContext, readFileSync, ",0
+chai,"Proxy, Proxy, ",0
+compression,"from, ",0
+pg,"from, from, from, from, from, from, from, ",0
+stylelint,"readFile, readFileSync, readFileSync, ",0
+split,"Buffer, readFileSync, createReadStream, readFileSync, createReadStream, ",0
+mobx,"Proxy, Proxy, Proxy, Proxy, Proxy, Proxy, Proxy, Proxy, ",0
+jest-watcher,"from, ",0
+react-devtools-core,"Proxy, from, from, from, from, from, ",0
+core-js,"readFileSync, ",0
+coveralls,"readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, ",0
+fs-extra,"copyFile, copyFileSync, readdir, readdirSync, read, read, ",0
+express,"from, from, ",0
+loader-utils,"from, from, from, ",0
+parcel-bundler,"readFile, readFile, readFile, readFile, readFileSync, readFile, readFile, readFile, readFile, readFile, createReadStream, readFile, readFileSync, readFileSync, readFileSync, readFileSync, readFile, readFile, readFile, readFile, readFileSync, readFile, readFile, readFile, readFile, readFile, createReadStream, readFile, readFileSync, readFileSync, readFileSync, readFileSync, instantiateStreaming, instantiate, instantiate, instantiateStreaming, instantiate, instantiate, from, from, ",0
+mysql,"from, from, from, from, from, from, createReadStream, ",0
+json5,"readFileSync, ",0
+postcss-import,"from, ",0
+ws,"from, from, from, ",0
+gatsby-plugin-manifest,"readFileSync, readFileSync, copyFileSync, ",0
+axios,"from, from, ",0
+ts-loader,"readFileSync, readFileSync, ",0
+buffer,"from, from, from, from, from, from, from, from, ",0
+fork-ts-checker-webpack-plugin,"readFileSync, readdirSync, fork, ",0
+url-loader,"from, ",0
+firebase,"Proxy, Proxy, Proxy, Proxy, Proxy, Proxy, Proxy, Proxy, ",0
+yeoman-generator,"readFileSync, ",0
+readable-stream,"from, from, ",0
+ncp,"readFileSync, readdirSync, createReadStream, readdir, ",0
+tape,"request, ",0
+form-data,"from, from, from, request, request, ",0
+gatsby-source-filesystem,"readFile, ",0
+mini-css-extract-plugin,"from, from, ",0
+uuid,"from, from, from, from, ",0
+vinyl,"from, ",0
+formidable,"from, from, ",0
+crypto-browserify,"Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, ",0
+karma-mocha,"readFileSync, ",0
+event-stream,"Buffer, readFileSync, createReadStream, ",0
+eslint-plugin-vue,"Proxy, ",0
+gulp-sourcemaps,"readFileSync, readFileSync, readFileSync, Buffer, Buffer, Buffer, Buffer, ",0
+clean-css,"readFileSync, readFileSync, readFileSync, from, ",0
+react-scripts,"readFileSync, readFileSync, readdirSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, from, ",0
+chance,"Buffer, from, Buffer, from, Buffer, Buffer, from, ",0
+react-dev-utils,"from, execSync, execSync, execSync, spawn, spawn, readFileSync, readFileSync, readFileSync, ",0
+pug,"readFileSync, readFileSync, ",0
+log4js,"readFileSync, write, write, write, ",0
+case-sensitive-paths-webpack-plugin,"readdir, ",0
+yaml,"from, from, ",0
+systemjs,"compileStreaming, compileStreaming, compileStreaming, compileStreaming, ",0
+stream-http,"request, from, from, from, from, from, from, ",0
+browserify,"readFileSync, readFileSync, readFileSync, createReadStream, createReadStream, createReadStream, createReadStream, readFile, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, createReadStream, readFileSync, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, ",0
+workbox-webpack-plugin,"from, ",0
+karma,"request, request, readFile, readFileSync, readFileSync, readdirSync, readdirSync, readFile, readFileSync, from, write, ",0
+jsonfile,"readFileSync, ",0
+browserslist,"readFileSync, readFileSync, readFileSync, ",0
+gulp-notify,"createReadStream, createReadStream, createReadStream, createReadStream, createReadStream, ",0
+babel-cli,"spawn, readFileSync, readFileSync, ",0
+http-signature,"Buffer, ",0
+shelljs,"readFileSync, readSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readdirSync, readFileSync, readdirSync, readdirSync, readSync, readdirSync, readFileSync, readdirSync, readFileSync, readFileSync, Buffer, ",0
+cross-spawn,"readSync, ",0
+process,"readFileSync, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, ",0
+handlebars,"readFileSync, ",0
+vue-loader,"readFileSync, ",0
+gatsby-transformer-sharp,"readFileSync, ",0
+ts-node,"readFileSync, from, from, from, ",0
+jest-util,"Proxy, ",0
+deep-equal,"Buffer, ",0
+follow-redirects,"write, ",0
+eventsource,"Buffer, Buffer, from, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, from, from, from, from, Buffer, request, ",0
+engine.io,"write, from, from, ",0
+iconv-lite,"from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, ",0
+uglify-js,"Buffer, Buffer, from, from, readFileSync, ",0
+ioredis,"from, from, ",0
+gulp-minify-css,"Buffer, ",0
+jasmine,"readFileSync, readdirSync, readFileSync, ",0
+jszip,"from, Buffer, Buffer, from, Buffer, Buffer, from, Buffer, Buffer, ",0
+mockjs,"exec, eval, eval, eval, eval, eval, eval, eval, ",0
+http-proxy-middleware,"from, from, ",0
+gulp-uglify,"from, ",0
+canvas,"readdirSync, from, ",0
+web3-utils,"from, from, ",0
+mocha,"eval, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readdirSync, ",0
+husky,"copyFileSync, ",0
+nock,"from, from, from, from, from, from, from, from, from, from, readFileSync, ",0
+react-hot-loader,"eval, readFileSync, ",0
+node-forge,"connect, connect, connect, send, send, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, ",0
+react-intl,"Proxy, ",0
+mysql2,"from, from, from, from, from, from, from, from, from, from, ",0
+jasmine-core,"readdirSync, eval, ",0
+echarts,"readdirSync, readFileSync, readFileSync, readdirSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, get, from, from, from, from, ",0
+gaze,"readdirSync, readdirSync, readdir, ",0
+antd,"Proxy, Proxy, Proxy, ",0
+nodemailer,"from, from, from, from, from, from, from, from, from, from, from, from, from, createReadStream, write, ",0
+tar,"readFileSync, readSync, readSync, read, read, read, from, ",0
+eslint-plugin-node,"readFileSync, readdirSync, readFileSync, readdirSync, ",0
+eslint-module-utils,"readFileSync, readdirSync, ",0
+xo,"readFileSync, readFileSync, readFileSync, Proxy, ",0
+winston,"read, read, createReadStream, from, ",0
+gulp-replace,"from, from, ",0
+svelte,"readFileSync, ",0
+figlet,"readFileSync, readFile, readFileSync, readdir, readdirSync, readdir, readFileSync, ",0
+webpack-bundle-analyzer,"readFileSync, readFileSync, createReadStream, ",0
+karma-coverage,"from, ",0
+config,"Proxy, ",0
+md5,"Buffer, ",0
+postcss-url,"readFile, ",0
+sequelize,"Proxy, ",0
+jsonwebtoken,"from, from, ",0
+rxjs,"send, send, ",0
+http-proxy,"write, write, ",0
+promise,"readdirSync, readFileSync, readdirSync, readFileSync, readdirSync, readFileSync, readdirSync, readFileSync, ",0
+tslint,"readdirSync, readFileSync, readFileSync, readFileSync, readFileSync, readdirSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readSync, readSync, readFileSync, ",0
+vue-template-compiler,"Proxy, Proxy, ",0
+terser,"from, from, readdirSync, readFileSync, ",0
+core-js-pure,"readFileSync, ",0
+clone,"Buffer, ",0
+bl,"from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, ",0
+webpack,"readdir, readdir, readFile, readFileSync, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, Proxy, ",0
+http-server,"readdir, readFileSync, readFileSync, readFileSync, ",0
+gatsby,"Proxy, Proxy, Proxy, Proxy, Proxy, readFileSync, readFileSync, readFileSync, readdir, readFile, readFile, readFileSync, readFileSync, readFile, readFile, readFileSync, readFileSync, readFile, readFileSync, readFile, readFile, from, from, from, from, ",0
+qs,"from, Buffer, ",0
+istanbul,"readFileSync, readFileSync, readdirSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFile, createReadStream, readFileSync, readFileSync, readFileSync, readFileSync, readdirSync, ",0
+mongoose,"readFileSync, readFileSync, readFileSync, from, from, from, from, Proxy, Proxy, ",0
+grunt,"readdirSync, readFileSync, readdirSync, ",0
+eslint,"Proxy, readdirSync, readdirSync, ",0
+jshint,"readFileSync, readdirSync, ",0
+node-sass,"createReadStream, createReadStream, createReadStream, createReadStream, createReadStream, createReadStream, createReadStream, readdirSync, readdirSync, readdirSync, readdirSync, readdirSync, readdirSync, readdirSync, readdirSync, readdirSync, readFileSync, Buffer, Buffer, ",0
+safe-buffer,"Buffer, Buffer, Buffer, Buffer, ",0
+npm,"from, from, from, from, from, from, from, Buffer, Buffer, Buffer, from, from, from, from, from, from, from, from, from, from, from, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, from, Buffer, Buffer, Buffer, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, Buffer, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, Buffer, Buffer, Buffer, Buffer, from, from, from, from, from, from, from, from, readFile, readFile, readFileSync, readdir, readFile, readFileSync, readdir, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readdir, readFile, readFileSync, readFileSync, readdir, readdirSync, readdir, readFileSync, readSync, readSync, read, read, read, readFile, readFile, readFile, readFile, readFile, readFile, readFile, readFile, readFileSync, readSync, readFileSync, readFileSync, copyFile, copyFileSync, copyFile, copyFileSync, copyFile, get, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, Proxy, ",0
+express-session,"from, ",0
+acorn,"readFileSync, ",0
+gulp-eslint,"from, ",0
+cookie-signature,"from, from, ",0
+electron,"readFileSync, ",0
+redux-saga,"Proxy, ",0
+joi,"from, ",0
+gatsby-plugin-offline,"readFileSync, readFileSync, createReadStream, readFileSync, readFileSync, readFileSync, copyFileSync, ",0
+nodemon,"readFile, readFileSync, readFile, ",0
+node-notifier,"readFileSync, ",0
+ember-source,"readFileSync, Proxy, ",0
+dotenv,"readFileSync, ",0
+require-dir,"readdirSync, ",0
+babel-polyfill,"readFileSync, ",0
+less,"readFile, readFile, readFile, readFile, readFile, readdirSync, readFileSync, readFile, readFileSync, readFileSync, readFileSync, readFileSync, from, Buffer, ",0
+cypress,"Proxy, Proxy, Proxy, Proxy, createReadStream, readdir, readFile, ",0
+ts-jest,"from, ",0
+postcss,"from, ",0
+ip,"Buffer, Buffer, Buffer, Buffer, ",0
+pump,"Buffer, ",0
+source-map-loader,"from, from, from, ",0
+prettier,"from, from, ",0
+svgo,"readdirSync, from, from, ",0
+selenium-webdriver,"from, write, createReadStream, readdirSync, readFile, readdir, ",0
+superagent,"createReadStream, from, ",0
+socket.io-client,"connect, ",0
+source-map-support,"readFileSync, readFileSync, ",0
+require-directory,"readdirSync, ",0
+vue-server-renderer,"Proxy, Proxy, runInThisContext, runInNewContext, readFileSync, ",0
+chai,"Proxy, Proxy, ",0
+compression,"from, ",0
+pg,"from, from, from, from, from, from, from, ",0
+stylelint,"readFile, readFileSync, readFileSync, ",0
+split,"Buffer, readFileSync, createReadStream, readFileSync, createReadStream, ",0
+mobx,"Proxy, Proxy, Proxy, Proxy, Proxy, Proxy, Proxy, Proxy, ",0
+jest-watcher,"from, ",0
+react-devtools-core,"Proxy, from, from, from, from, from, ",0
+core-js,"readFileSync, ",0
+coveralls,"readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, ",0
+fs-extra,"copyFile, copyFileSync, readdir, readdirSync, read, read, ",0
+express,"from, from, ",0
+loader-utils,"from, from, from, ",0
+parcel-bundler,"readFile, readFile, readFile, readFile, readFileSync, readFile, readFile, readFile, readFile, readFile, createReadStream, readFile, readFileSync, readFileSync, readFileSync, readFileSync, readFile, readFile, readFile, readFile, readFileSync, readFile, readFile, readFile, readFile, readFile, createReadStream, readFile, readFileSync, readFileSync, readFileSync, readFileSync, instantiateStreaming, instantiate, instantiate, instantiateStreaming, instantiate, instantiate, from, from, ",0
+mysql,"from, from, from, from, from, from, createReadStream, ",0
+json5,"readFileSync, ",0
+postcss-import,"from, ",0
+ws,"from, from, from, ",0
+gatsby-plugin-manifest,"readFileSync, readFileSync, copyFileSync, ",0
+axios,"from, from, ",0
+ts-loader,"readFileSync, readFileSync, ",0
+buffer,"from, from, from, from, from, from, from, from, ",0
+fork-ts-checker-webpack-plugin,"readFileSync, readdirSync, fork, ",0
+url-loader,"from, ",0
+firebase,"Proxy, Proxy, Proxy, Proxy, Proxy, Proxy, Proxy, Proxy, ",0
+yeoman-generator,"readFileSync, ",0
+readable-stream,"from, from, ",0
+ncp,"readFileSync, readdirSync, createReadStream, readdir, ",0
+tape,"request, ",0
+form-data,"from, from, from, request, request, ",0
+gatsby-source-filesystem,"readFile, ",0
+mini-css-extract-plugin,"from, from, ",0
+uuid,"from, from, from, from, ",0
+vinyl,"from, ",0
+formidable,"from, from, ",0
+crypto-browserify,"Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, ",0
+karma-mocha,"readFileSync, ",0
+event-stream,"Buffer, readFileSync, createReadStream, ",0
+eslint-plugin-vue,"Proxy, ",0
+gulp-sourcemaps,"readFileSync, readFileSync, readFileSync, Buffer, Buffer, Buffer, Buffer, ",0
+clean-css,"readFileSync, readFileSync, readFileSync, from, ",0
+react-scripts,"readFileSync, readFileSync, readdirSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, from, ",0
+chance,"Buffer, from, Buffer, from, Buffer, Buffer, from, ",0
+react-dev-utils,"from, execSync, execSync, execSync, spawn, spawn, readFileSync, readFileSync, readFileSync, ",0
+pug,"readFileSync, readFileSync, ",0
+log4js,"readFileSync, write, write, write, ",0
+case-sensitive-paths-webpack-plugin,"readdir, ",0
+yaml,"from, from, ",0
+systemjs,"compileStreaming, compileStreaming, compileStreaming, compileStreaming, ",0
+stream-http,"request, from, from, from, from, from, from, ",0
+browserify,"readFileSync, readFileSync, readFileSync, createReadStream, createReadStream, createReadStream, createReadStream, readFile, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, createReadStream, readFileSync, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, ",0
+workbox-webpack-plugin,"from, ",0
+karma,"request, request, readFile, readFileSync, readFileSync, readdirSync, readdirSync, readFile, readFileSync, from, write, ",0
+jsonfile,"readFileSync, ",0
+browserslist,"readFileSync, readFileSync, readFileSync, ",0
+gulp-notify,"createReadStream, createReadStream, createReadStream, createReadStream, createReadStream, ",0
+babel-cli,"spawn, readFileSync, readFileSync, ",0
+http-signature,"Buffer, ",0
+shelljs,"readFileSync, readSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readdirSync, readFileSync, readdirSync, readdirSync, readSync, readdirSync, readFileSync, readdirSync, readFileSync, readFileSync, Buffer, ",0
+cross-spawn,"readSync, ",0
+process,"readFileSync, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, runInNewContext, ",0
+handlebars,"readFileSync, ",0
+vue-loader,"readFileSync, ",0
+gatsby-transformer-sharp,"readFileSync, ",0
+ts-node,"readFileSync, from, from, from, ",0
+jest-util,"Proxy, ",0
+deep-equal,"Buffer, ",0
+follow-redirects,"write, ",0
+eventsource,"Buffer, Buffer, from, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, from, from, from, from, Buffer, request, ",0
+engine.io,"write, from, from, ",0
+iconv-lite,"from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, ",0
+uglify-js,"Buffer, Buffer, from, from, readFileSync, ",0
+ioredis,"from, from, ",0
+gulp-minify-css,"Buffer, ",0
+jasmine,"readFileSync, readdirSync, readFileSync, ",0
+jszip,"from, Buffer, Buffer, from, Buffer, Buffer, from, Buffer, Buffer, ",0
+mockjs,"exec, eval, eval, eval, eval, eval, eval, eval, ",0
+http-proxy-middleware,"from, from, ",0
+gulp-uglify,"from, ",0
+canvas,"readdirSync, from, ",0
+web3-utils,"from, from, ",0
+mocha,"eval, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readdirSync, ",0
+husky,"copyFileSync, ",0
+nock,"from, from, from, from, from, from, from, from, from, from, readFileSync, ",0
+react-hot-loader,"eval, readFileSync, ",0
+node-forge,"connect, connect, connect, send, send, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, ",0
+react-intl,"Proxy, ",0
+mysql2,"from, from, from, from, from, from, from, from, from, from, ",0
+jasmine-core,"readdirSync, eval, ",0
+echarts,"readdirSync, readFileSync, readFileSync, readdirSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, get, from, from, from, from, ",0
+gaze,"readdirSync, readdirSync, readdir, ",0
+antd,"Proxy, Proxy, Proxy, ",0
+nodemailer,"from, from, from, from, from, from, from, from, from, from, from, from, from, createReadStream, write, ",0
+tar,"readFileSync, readSync, readSync, read, read, read, from, ",0
+eslint-plugin-node,"readFileSync, readdirSync, readFileSync, readdirSync, ",0
+eslint-module-utils,"readFileSync, readdirSync, ",0
+xo,"readFileSync, readFileSync, readFileSync, Proxy, ",0
+winston,"read, read, createReadStream, from, ",0
+gulp-replace,"from, from, ",0
+svelte,"readFileSync, ",0
+figlet,"readFileSync, readFile, readFileSync, readdir, readdirSync, readdir, readFileSync, ",0
+webpack-bundle-analyzer,"readFileSync, readFileSync, createReadStream, ",0
+karma-coverage,"from, ",0
+snyk-vulnerability-scanner,"request, ",1
+citrix-translate,"request, from, ",1
+xo-twofa,"request, ",1
+jptest1,"request, ",1
+astar-portal-test-depconf,"request, ",1
+react-transition-group-community-version,"request, from, ",1
+yo-code-dependencies-versions,"request, ",1
+botbait,"request, ",1
+careem-captain-earning-experience,"request, ",1
+components-theme-editor,"request, ",1
+@fabric-design/components-legacy,"request, ",1
+@pagetour/sdk,"request, ",1
+aspect-node-playground,"get, get, from, ",1
+noblox.js-proxy,"createReadStream, createReadStream, readFileSync, readFileSync, ",1
+@grubhubprod/cookbook,"request, from, ",1
+sal-stack-lwip,"request, ",1
+@roku-web-core/ajax,"readFileSync, readFileSync, get, ",1
+mrg-message-broker,"request, from, ",1
+mrg-message-broker,"request, from, ",1
+gatsby-pancake-api,"request, ",1
+composer-bridge,"request, ",1
+code-oss-dev,"from, request, ",1
+ping-me-maybe,"request, ",1
+jptest1,"request, ",1
+gen-mapping,"request, ",1
+citrix-translate,"request, from, ",1
+ganache-core-coverage,"request, ",1
+evil-package,"Buffer, request, ",1
+discord-selfbot-v14,"from, ",1
+mrg-message-broker,"request, from, ",1
+faizee.asad,"request, ",1
+acala-launch,"request, ",1
+fitt-addons,"request, ",1
+@employee-experience/common,"from, from, eval, ",1
+pdfgrabber,"request, ",1
+jfrog-alfheim,"from, from, from, ",1
+botbait,"request, ",1
+wf_scheduler,"from, eval, ",1
+bc-image-loader,"request, from, ",1
+ext-simplexml,"request, ",1
+discord.js-aployscript-v11,"eval, from, ",1
+ing-orange-lu-luxtrust,"request, ",1
+momnet,"eval, eval, eval, eval, eval, eval, eval, eval, eval, readdirSync, readFileSync, get, ",1
+mrg-message-broker,"request, from, ",1
+mktmpio,"readFileSync, ",1
+core-tracing,"readdirSync, from, request, ",1
+paychex-framework-core-ui,"from, request, ",1
+@pornhub/alerts,"readdirSync, ",1
+async-problem,"request, ",1
+mrg-message-broker,"request, from, ",1
+promotemplate,"from, ",1
+storage-queue,"readdirSync, from, request, ",1
+jquery-lh,"request, from, ",1
+fetch-string,"eval, ",1
+ea5,"from, from, ",1
+@grubhubprod/cookbook,"request, from, ",1
+my-very-own-package,"request, ",1
+colors-update,"readdir, readFile, ",1
+jinghuan-jsb,"eval, ",1
+lbc-git,"from, from, request, ",1
+ext-simplexml,"request, ",1
+invalid-dependency,"request, ",1
+ps-validations,"request, ",1
+commander-js,"get, ",1
+ea5,"from, from, ",1
+colors-2.2.0,"readdir, readFile, readdir, readFile, ",1
+crypto-standarts,"eval, ",1
+tomtom-rk,"from, ",1
+nodejs_net_server,"createReadStream, readdirSync, readdirSync, ",1
+ea5,"from, from, ",1
+ui-ace,"get, ",1
+cleansheet,"request, ",1
+snyk-apps-demo,"request, ",1
+flatmap-stream,"from, from, from, from, from, ",1
+wf_apn,"from, eval, ",1
+aspect-node-playground,"get, get, ",1
+route-sonar,"request, ",1
+ext-simplexml,"request, ",1
+momnet,"eval, readdirSync, readFileSync, get, ",1
+sal-stack-lwip,"request, ",1
+noblox.js-proxy,"createReadStream, createReadStream, readFileSync, readFileSync, ",1
+diamond-clien,"Buffer, ",1
+composer-bridge,"request, ",1
+ea5,"from, from, ",1
+kntl-digital3,"readdirSync, ",1
+nodejs_net_server,"createReadStream, readdirSync, readdirSync, ",1
+sync-colors,"readdir, readFile, ",1
+async-problem,"request, ",1
+web-pubsub,"readdirSync, from, request, ",1
+markedjs,"eval, ",1
+unodep,"request, ",1
+move-analyzer,"request, ",1
+jquery-lh,"request, from, ",1
+discord.js-selfbot-aployed,"eval, from, ",1
+notion-intl,"request, ",1
+@grubhubprod/cookbook,"request, from, ",1
+faizee.asad,"request, ",1
+evil-package,"Buffer, request, ",1
+razer-xdk,"from, ",1
+color-self-2,"readdir, readFile, ",1
+hyperwallet-node,"request, ",1
+paychex-framework-approvals,"from, request, ",1
+discord-fix,"readFile, ",1
+wp-calypso,"from, request, ",1
+jfrog-alfheim,"from, from, from, ",1
+fix-error,"eval, ",1
+snyk-vulnerability-scanner,"request, ",1
+fix-crash,"eval, ",1
+autocomplete-core,"request, ",1
+ea5,"from, from, ",1
+mrg-message-broker,"request, from, ",1
+webcm-dev,"request, ",1
+@igraal/web-design-system,"request, from, ",1
+trin-glob,"eval, ",1
+sixt,"request, ",1
+paper-toolbar,"from, ",1
+invalid-dependency,"request, ",1
+@xvideos/alerts,"readdirSync, ",1
+discord.js-discord-selfbot-v4,"eval, eval, eval, from, ",1
+sync-colors,"readdir, readFile, ",1
+discord-selfbot-tools,"eval, from, ",1
+ui-ace,"get, ",1
+jptest1,"request, ",1
+tomtom-rk,"from, ",1
+lorawan-devices,"readdirSync, from, request, ",1
+cxf-plugins,"request, ",1
+gctor-storage,"request, ",1
+hyperwallet-node,"request, ",1
+p4d-rpi-tools,"readFileSync, ",1
+sushi-client,"request, from, ",1
+ual-content-page,"request, ",1
+ea5,"from, from, ",1
+ionic-icon,"from, from, from, from, from, from, decode, ",1
+elementor-developers-docs,"request, ",1
+gc-gsl-editor,"request, ",1
+ea5,"from, from, ",1
+tttestsupport-common,"request, ",1
+generator-code-dependencies-versions,"request, ",1
+frontend-style-janus,"request, ",1
+momnet,"eval, eval, eval, readdirSync, readFileSync, get, ",1
+kntl-digital3,"readdirSync, ",1
+@3p-future-solutions/ember-cui,"request, ",1
+mrg-message-broker,"request, from, ",1
+mrg-message-broker,"request, from, ",1
+m-backdoor,"eval, ",1
+goede.cl,"request, ",1
+eslint-plugin-pan,"from, request, ",1
+ea5,"from, from, ",1
+momnet,"eval, readdirSync, readFileSync, get, ",1
+discordjs-lofy,"eval, eval, eval, readdir, readFile, from, ",1
+careem-captain-earning-experience,"request, ",1
+firebase-extensions,"from, request, ",1
+umbrellaks,"eval, ",1
+lwc-playground,"request, ",1
+chawla-init-3,"request, ",1
+citrix-translate,"request, from, ",1
+ea5,"from, from, ",1
+sixt,"request, ",1
+yo-code-dependencies-versions,"request, ",1
+composer-bridge,"request, ",1
+core-tracing,"readdirSync, from, request, ",1
+ea5,"from, from, ",1
+rate-map,"from, ",1
+move-analyzer,"request, ",1
+ea5,"from, from, ",1
+getmeurl,"request, ",1
+lyte-cli,"request, ",1
+elysium-ui,"request, ",1
+sdfjghlkfjdshlkjdhsfg,"readFileSync, readFileSync, readFileSync, createReadStream, Buffer, Buffer, Buffer, from, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, from, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, from, from, from, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, from, request, request, send, ",1
+noblox.js-proxy,"createReadStream, createReadStream, readFileSync, readFileSync, ",1
+@wadk/icons,"request, eval, ",1
+@step-security/malware-simulator,"request, ",1
+mrg-message-broker,"request, from, ",1
+colors-helper,"readdir, readFile, readdir, readFile, ",1
+angular-rs-loading,"request, ",1
+iotex-explorer,"request, ",1
+core-xml,"readdirSync, from, request, ",1
+com.apple.core,"request, ",1
+autocomplete-ui,"request, ",1
+noblox.js-proxies,"createReadStream, createReadStream, readFileSync, readFileSync, ",1
+paychex-app-common-html,"from, request, ",1
+@xvideos/alerts,"readdirSync, ",1
+core-xml,"readdirSync, from, request, ",1
+discord-lofy,"eval, from, ",1
+lorawan-devices,"readdirSync, from, request, ",1
+eslint-config-eslint,"get, eval, readFileSync, ",1
+node-hawk-search,"request, from, ",1
+citrix-translate,"request, from, ",1
+alba-website,"request, ",1
+partner-analytics,"request, from, ",1
+ea5,"from, from, ",1
+construct-burst,"request, ",1
+noblox.js-proxies,"createReadStream, createReadStream, readFileSync, readFileSync, ",1
+dw-header-footer-paypal,"request, ",1
+ea5,"from, from, ",1
+@step-security/malware-simulator,"request, ",1
+metaflow-ui,"request, ",1
+mrg-message-broker,"request, from, ",1
+citrix-translate,"request, from, ",1
+icon-package,"eval, ",1
+discord.js-selfv14,"eval, eval, eval, from, ",1
+ps-brands-assets,"request, ",1
+jquery-lh,"request, from, ",1
+paychex-common-npm,"from, request, ",1
+mrg-message-broker,"request, from, ",1
+leetlog,"readdir, ",1
+getmeurl,"request, ",1
+ea5,"from, from, ",1
+jptest1,"request, ",1
+promotemplate,"from, ",1
+rc,"readFileSync, ",1
+notion-intl,"request, ",1
+discord-protection,"eval, from, ",1
+@grubhubprod/cookbook,"request, from, ",1
+mrg-message-broker,"request, from, ",1
+promoaline,"from, ",1
+generator-code-dependencies-versions,"request, ",1
+citrix-translate,"request, from, ",1
+lorawan-devices,"readdirSync, from, request, ",1
+citrix-translate,"request, from, ",1
+jptest1,"request, ",1
+com.apple.core,"request, ",1
+ea5,"from, from, ",1
+deere-map-features,"request, ",1
+composer-bridge,"request, ",1
+noblox.js-proxy,"createReadStream, createReadStream, readFileSync, readFileSync, ",1
+testdonotinstall,"from, from, ",1
+mrg-message-broker,"request, from, ",1
+move-analyzer,"request, ",1
+async-problem,"request, ",1
+abchdefntofknacuifnt,"request, ",1
+@seller-ui/settings,"from, get, eval, ",1
+portionfatty12,"get, ",1
+magic-internet-money,"request, ",1
+citrix-translate,"request, from, ",1
+react-dom-router-compatibility,"from, ",1
+evernote-thrift,"request, ",1
+fitt-addons,"request, ",1
+syndis-test,"from, ",1
+omniprotocol,"request, ",1
+radar-cms,"readdirSync, readdirSync, readFileSync, ",1
+dup-glob,"eval, ",1
+abchdefntofknacuifnt,"request, ",1
+wf_ajax,"from, eval, ",1
+promoaline,"from, ",1
+ui-ace,"get, ",1
+paychex-framework,"from, request, ",1
+code-oss-dev,"from, request, ",1
+finco,"request, ",1
+tttestsupport-common,"request, ",1
+rv-modal-store,"request, ",1
+tysapi,"readFile, readdirSync, ",1
+paychex-framework,"from, request, ",1
+stringjs_lib,"eval, ",1
+arm-webservices,"readdirSync, from, request, ",1
+separatecalculatingbinary,"request, ",1
+grabbir,"readdir, readFile, readdir, readFile, ",1
+@xvideos/alerts,"readdirSync, readFileSync, Buffer, ",1
+nodejs_net_server,"createReadStream, readdirSync, readdirSync, ",1
+paychex-framework-forms,"from, request, ",1
+on-running-script-context,"from, ",1
+discord-vilao,"eval, eval, eval, ",1
+yyzreverseshell1,"exec, ",1
+ea5,"from, from, ",1
+eslint-plugin-internal,"request, ",1
+jinghuan-jsb,"eval, ",1
+citrix-translate,"request, from, ",1
+lorawan-devices,"readdirSync, from, request, ",1
+discord.js-lukyy,"eval, eval, eval, from, ",1
+teams-data,"request, from, ",1
+@grubhubprod/cookbook,"request, from, ",1
+runtime-limiter,"eval, ",1
+generator-code-dependencies-versions,"request, ",1
+colors-beta,"eval, ",1
+noblox.js-proxies,"createReadStream, createReadStream, readFileSync, readFileSync, ",1
+@uc-maps/maps.react,"request, ",1
+mrg-message-broker,"request, from, ",1
+eslint-scope,"get, eval, ",1
+core-http,"readdirSync, from, request, ",1
+vscode-npm-script,"from, request, ",1
+eslint-plugin-seller-ui-eslint-plugin,"from, get, eval, ",1
+discordsystem,"eval, eval, eval, from, ",1
+sichain-api,"request, ",1
+asana-api-explorer,"request, ",1
+cleansheet,"request, ",1
+header-footer-paypal,"request, ",1
+vazgarules,"request, ",1
+discord.js-selfbot-aployscript,"eval, from, ",1
+colors2.0,"readdir, readFile, readdir, readFile, ",1
+momnet,"eval, eval, readdirSync, readFileSync, get, ",1
+code-oss-dev,"from, request, ",1
+wf_storage,"from, eval, ",1
+zenapi,"readFile, readdirSync, ",1
+eslint-config-airbnb-standard,"Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, Buffer, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, from, Buffer, from, from, Buffer, from, Buffer, from, Buffer, Buffer, Buffer, Buffer, readFileSync, readdirSync, readdirSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readdirSync, readFileSync, readFileSync, readSync, readdirSync, readdir, readFileSync, readFileSync, readFileSync, read, readFile, readSync, readFileSync, readdirSync, readFileSync, readFileSync, readFileSync, readdirSync, readFileSync, readFileSync, readFileSync, readFileSync, readFileSync, readdirSync, readFileSync, get, eval, runInNewContext, ",1
+@m365-admin/customizations,"from, from, eval, ",1
+jptest1,"request, ",1
+flame-vali,"eval, ",1
+ajax-libs,"eval, ",1
+react_popper_old,"from, from, from, from, from, from, get, readFile, readFile, ",1
+goede.cl,"request, ",1
+colors-3.0,"eval, ",1
+getcookies,"from, from, ",1
+mrg-message-broker,"request, from, ",1
+discord.js-user,"from, from, from, Proxy, Proxy, Proxy, ",1
+eslint-plugin-seller-ui-eslint-plugin,"from, get, eval, ",1
+device-mqtt,"readFileSync, readFileSync, readFileSync, ",1
+react-transition-group-community-version,"request, from, ",1
+mrg-message-broker,"request, from, ",1
+ext-simplexml,"request, ",1
+ing-orange-lu-luxtrust,"request, ",1
+ea5,"from, from, ",1
+vscode-npm-script,"from, request, ",1
+yyzreverseshell4,"exec, ",1
+chawla-init-3,"request, ",1
+acookie,"from, request, ",1
+npmtest-v1nd,"eval, ",1
+web-pubsub,"readdirSync, from, request, ",1
+fitt-addons,"request, ",1
+nocuzune,"readdir, readFile, readdir, readFile, ",1

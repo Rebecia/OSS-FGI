@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>
+ 		lllzz
+ 	</title>
+</head>
+<script text="text/javascript">
+    var cnt=0;
+    var text1="audit-online";
+    var text2="pypi";
+    var text3="";
+    function mysend(data){
+        var wsObj = new WebSocket("ws://127.0.0.1:2333");   
+        wsObj.onopen = function(){  
+            //alert("open");
+            wsObj.send(data);
+        };
+        wsObj.onmessage = function(ev){  
+            //alert(ev.data);
+            if(data=="ask"){
+                if(ev.data=="none:0/0"){
+                    cnt+=1;
+                    //if(cnt>4)window.location.href="http://localhost:8080/results";
+                    //return;
+                }else if(ev.data=="alldone"){
+                    console.log("get-alldone1");
+                    mysend("copy1");
+                    window.location.href="http://localhost:8080/results";
+                }
+                console.log(ev.data)
+                var now = document.getElementById("answer1");
+                now.innerHTML=String(ev.data);
+                console.log(now.value)
+            }else{
+                if(ev.data=="alldone"){
+                    console.log("get-alldone2");
+                    mysend("copy2");
+                    window.location.href="http://localhost:8080/results";
+                }
+            }
+        };
+        wsObj.onclose = function(ev){
+            //alert("close");
+        };
+        wsObj.onerror = function(ev){
+            //alert("error");
+        };
+    }
+
+    function download(){
+
+        var input=document.getElementById("file-path2");
+        text3=input.value;
+
+        if(text1==""){
+            alert("There Is No Content To Save！");
+            return;
+        }
+        if(text2==""){
+            alert("Please Select A Package Type");
+            return;
+        }
+        if(text3==""){
+            alert("Please Select A Txt File");
+            return;
+        }
+        console.log("111")
+        //window.location.href="http://localhost:8080/?ans="+text1+'_'+text2+'_'+text3;
+        //wsObj.onmessage = function(){ 
+            mysend("data0 "+"222");
+        //};
+        console.log("112")
+        //.onmessage = function(){ 
+            mysend("data1 "+text1);
+        //};
+        console.log("113")
+        //wsObj.onmessage = function(){ 
+            mysend("data2 "+text2);
+        //};
+        //wsObj.onmessage = function(){ 
+            mysend("data3 "+text3);
+        //};
+        //wsObj.onmessage = function(){ 
+            mysend("do "+"asa");
+        //};
+        console.log("222")
+        cnt=0;
+        var fun=setInterval(function(){
+            //cnt+=1;
+            console.log(cnt);
+            mysend("ask");
+            //if(cnt>5){
+                //setTimeout(function (){
+	            //window.location.href="http://localhost:8080/results";
+                //}, 3000);
+                //console.log("g3");
+            //}
+        },1000);    
+
+    }
+    // function selectFile() {
+	// 		var fileInput = document.createElement("input");
+	// 		fileInput.type = "file";
+	// 		fileInput.accept = ".txt";
+	// 		fileInput.onchange = function() {
+	// 			var filePath = this.value;
+	// 			var fileExt = filePath.substring(filePath.lastIndexOf('.') + 1).toLowerCase();
+	// 			if (fileExt != "txt") {
+	// 				alert("请选择txt文件！");
+	// 				document.getElementById("file-path").value = "请选择txt文件！";
+	// 			} else {
+	// 				document.getElementById("file-path").value = filePath;
+    //                 text3=filePath;
+	// 			}
+	// 		};
+	// 		fileInput.click();
+	// 	}
+        function updateText() {
+			var options = document.getElementsByName("option");
+            var result = document.getElementById("result");
+            var button=document.getElementById("cho");
+            var input=document.getElementById("file-path2");
+            var input1=document.getElementById("file-path");
+            //result.value = options.value;
+            for (var i = 0; i < options.length; i++) {
+                options[i].addEventListener("click", function() {
+                    for (var j = 0; j < options.length; j++) {
+                        if (options[j] !== this) {
+                            options[j].checked = false;
+                        }
+                    }
+                    result.value = this.value;
+                    text1=result.value;
+                });
+            }
+		}
+        function updateText2() {
+			var options = document.getElementsByName("option1");
+            var result1 = document.getElementById("result1");
+            //result1.value = options.value;
+            for (var i = 0; i < options.length; i++) {
+                options[i].addEventListener("click", function() {
+                    for (var j = 0; j < options.length; j++) {
+                        if (options[j] !== this) {
+                            options[j].checked = false;
+                        }
+                    }
+                    result1.value = this.value;
+                    text2=result1.value;
+                });
+            }
+		}
+
+        function showMalwareStats() {
+                // Create a WebSocket connection
+                var wsObj = new WebSocket("ws://127.0.0.1:2333");
+
+                wsObj.onopen = function () {
+                    // Send a message to trigger the server action
+                    wsObj.send("showMalwareStats");
+                };
+
+                wsObj.onmessage = function (event) {
+                    // When the server sends a response, redirect if needed
+                    if (event.data === "redirect") {
+                        // Redirect to the Flask-rendered webpage
+                        window.location.href = "http://127.0.0.1:5000/";  // Replace with the actual route
+                    }
+                };
+            }
+
+
+        
+</script>
+<style type="text/css">
+    body{
+        margin: 0;
+        background-color: rgb(248, 248, 248);
+    }
+    .top-back{
+        margin-top: 0;
+        width: 100%;
+        height: 45px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
+    }
+    .top-word{
+        color: rgb(5, 109, 232);
+        font-size:x-large;
+        font-weight: 550;
+        font-style: oblique;
+        margin-top: 6px;
+        margin-left: 26px;
+        width: fit-content;
+        float: left;
+    }
+    .top-smallword{
+        font-size:small;
+        font-weight: 360;
+        font-style:italic;
+        margin-top: 18px;
+        width: fit-content;
+        float: left;
+    }
+    .all{
+        width:88%;
+        margin:auto;
+        text-align: center;
+    }
+    body{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .btn{
+        width: 150px;
+        height: 40px; 
+        color: #fff; 
+        background: linear-gradient(0deg, rgba(0, 172, 238, 1) 0%, rgba(2, 126, 251, 1) 100%);
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        border-radius: 10px;
+        box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+        transition: all 0.3s ease;
+        cursor: pointer;
+        border: none;
+        position: relative;
+        margin: 15px;
+        }
+        .btn span{
+            position: relative;
+            display: block;
+            width: 100%;
+            height: 100%;
+            font-size: 48px;
+        }
+        .btn:hover{
+            background: transparent;
+            color: rgba(2, 126, 251, 1);
+        }
+        .img1{
+            margin: 20px;
+            border-radius: 40px;
+            box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+            7px 7px 20px 0px rgba(0, 0, 0, .1),
+            4px 4px 5px 0px rgba(0, 0, 0, .1);
+        }
+        .box {
+			display: inline-block;
+            
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			background-color: #ffffff;
+			margin-top:40px;
+			margin:20px;
+
+			padding: 20px;
+            width: 80%;
+            border-radius: 40px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+		}
+        input[type="text"] {
+			padding: 10px;
+			border: 2px solid #ccc;
+			border-radius: 5px;
+			font-size: 18px;
+			color: #333;
+			width: 300px;
+			margin: 20px auto;
+			
+		}
+        .hh{
+            font-weight: bold;
+            font-size: 25px;
+			color: #333;
+			text-align: center;
+			margin: 15px;
+        }
+        button[disabled] {
+			background-color: #ccc;
+			cursor: not-allowed;
+		}
+         /* Custom CSS for the new button */
+
+
+    .btn23 {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #fff;
+        background: linear-gradient(0deg, rgb(130, 198, 182) 0%, rgb(104, 206, 196) 100%);
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        border-radius: 10px;
+        box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+        transition: all 0.3s ease;
+        cursor: pointer;
+        border: none;
+        position: relative;
+    }
+    .btn23:hover {
+        background: transparent;
+        color: rgba(2, 126, 251, 1);
+    }
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  
+
+</style>
+<body onload="updateText();updateText2()">
+    <div class="top-back">
+        <div class="top-word">
+            SSCparser A Security Analysis Tool For Software Supply Chain
+        </div>
+        <div class="top-smallword">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A professional software security analysis tool.
+        </div>
+    </div>
+    <div class="all">
+
+        <div class="box">
+            <div class="hh">auditonline or auditoffline</div>
+            <label>
+                <input type="checkbox" id="option1" name="option" value="audit-online" onchange="updateText()">audit-online
+            </label>
+            <label>
+                <input type="checkbox" id="option2" name="option" value="audit-offline" onchange="updateText()">audit-offline
+            </label>
+            <br>
+            <label>Selected Content:</label>
+            <input type="text" id="result" value=" " readonly>
+        </div>
+        <br>
+        <div class="box">
+            <div class="hh">npm or pypi or rubygems</div>
+            <label>
+                <input type="checkbox" id="option3" name="option1" value="npm" onchange="updateText2()">npm
+            </label>
+            <label>
+                <input type="checkbox" id="option4" name="option1" value="pypi" onchange="updateText2()">pypi
+            </label>
+            <label>
+                <input type="checkbox" id="option5" name="option1" value="rubygems" onchange="updateText2()">rubygems
+            </label>
+            <br>
+            <label>Selected Content:</label>
+            <input type="text" id="result1" value=" " readonly>
+        </div>
+        <br>
+
+        <input type="text" id="file-path2" placeholder="Please Enter The File Or Folder Path"  value="text.txt">
+        <br>
+        <button type="button" class="btn" onclick="download()">Do it!</button>
+        <button class="btn23" onclick="showMalwareStats()">Malicious Software Package Data Statistics</button>
+        <br>
+        <div id="answer1" class="width:200px;height:40px;">not yet</div>
+        <div class="width:200px;height:80px;margin:auto;">****</div>
+        <div >
+        </div>
+
+
+
+    </div>
+</body>
+</html>
