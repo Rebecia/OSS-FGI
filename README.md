@@ -11,7 +11,7 @@ This github repo is the artifact dataset for the manuscript "A Large-scale Fine-
 ## Documentation 
 
 ### Extract_FGI
-    We have written the front-end of the webpage type. We have two extraction modes: online or offline. You need to enter the file (.txt) address or folder address respectively to perform batch processing to extract information.
+We have written the front-end of the webpage type. We have two extraction modes: online or offline. You need to enter the file (.txt) address or folder address respectively to perform batch processing to extract information.
 
 ### Data_Analysis
 
