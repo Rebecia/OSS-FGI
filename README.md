@@ -1,7 +1,3 @@
-## OSS-FGI
-
-This github repo is the artifact dataset for the manuscript "A Large-scale Fine-grained Analysis of Packages in Open-Source Software Ecosystems".
-
 ## What can you get from OSS-FGI:
 
 1. Dataset of malicious software packages.
