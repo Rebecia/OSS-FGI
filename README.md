@@ -49,5 +49,11 @@ Contains dataset we extracted and the extraction method:
 - **Dynamic_msg_ip**  
   Count the number of messages and IP addresses in dynamic API.
 
+
+**Data_acquisition** contains dataset we extracted and the extraction method
+- get_all_sum: get all types of data(name, OSS, description, author, maintainer, URL, dependencies number, Static_APIs, Dynamic_APIs).
+- Dynamic_msg_ip: count the number of messages and IP addresses in the dynamic API.
+- other folder: Statistical dataset.
+=======
 - **other folder**  
   Statistical dataset.
